@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -181,11 +181,20 @@
             this.panel1.Size = new System.Drawing.Size(70, 70);
             this.panel1.TabIndex = 0;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(5, 6);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(17, 12);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "27";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(12, 24);
+            this.label1.Location = new System.Drawing.Point(12, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 21);
             this.label1.TabIndex = 1;
@@ -199,15 +208,6 @@
             this.label2.Size = new System.Drawing.Size(17, 12);
             this.label2.TabIndex = 0;
             this.label2.Text = "월";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(5, 6);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(17, 12);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "27";
             // 
             // panel2
             // 
@@ -1052,7 +1052,7 @@
             this.button3.Text = "종료";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // WorkRecord
+            // frmWorkRecord
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1113,7 +1113,7 @@
             this.Controls.Add(this.panel15);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel1);
-            this.Name = "WorkRecord";
+            this.Name = "frmWorkRecord";
             this.Text = "WorkRecord";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

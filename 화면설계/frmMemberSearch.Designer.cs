@@ -58,16 +58,16 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(14, 65);
+            this.textBox1.Location = new System.Drawing.Point(12, 53);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(163, 21);
+            this.textBox1.Size = new System.Drawing.Size(108, 21);
             this.textBox1.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(56, 92);
+            this.button1.Location = new System.Drawing.Point(130, 53);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(47, 23);
             this.button1.TabIndex = 3;
             this.button1.Text = "검색";
             this.button1.UseVisualStyleBackColor = true;
