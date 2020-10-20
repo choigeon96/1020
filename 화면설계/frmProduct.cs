@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace 화면설계
 {
-    public partial class frmPurchase : Form
+    public partial class frmProduct : Form
     {
-        public frmPurchase()
+        public frmProduct()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -65,5 +65,10 @@ namespace 화면설계
             frmNewEyeTest newEyeTest = new frmNewEyeTest();
             newEyeTest.Show();
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

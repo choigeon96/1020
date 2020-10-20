@@ -47,11 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="frmGraph.cs">
       <SubType>Form</SubType>
@@ -77,11 +77,29 @@
     <Compile Include="frmMemberSearch.Designer.cs">
       <DependentUpon>frmMemberSearch.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNewEmp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewEmp.Designer.cs">
+      <DependentUpon>frmNewEmp.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNewEyeTest.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmNewEyeTest.Designer.cs">
       <DependentUpon>frmNewEyeTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewPurchase.Designer.cs">
+      <DependentUpon>frmNewPurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProduct.Designer.cs">
+      <DependentUpon>frmProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPurchase.cs">
       <SubType>Form</SubType>
@@ -109,8 +127,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmWorkRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWorkRecord.Designer.cs">
+      <DependentUpon>frmWorkRecord.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmGraph.resx">
       <DependentUpon>frmGraph.cs</DependentUpon>
@@ -124,8 +148,20 @@
     <EmbeddedResource Include="frmMemberSearch.resx">
       <DependentUpon>frmMemberSearch.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmNewEmp.resx">
+      <DependentUpon>frmNewEmp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNewEyeTest.resx">
       <DependentUpon>frmNewEyeTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewPurchase.resx">
+      <DependentUpon>frmNewPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProduct.resx">
+      <DependentUpon>frmProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPurchase.resx">
+      <DependentUpon>frmPurchase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegMember.resx">
       <DependentUpon>frmRegMember.cs</DependentUpon>
@@ -145,6 +181,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmWorkRecord.resx">
+      <DependentUpon>frmWorkRecord.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

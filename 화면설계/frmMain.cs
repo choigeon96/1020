@@ -37,6 +37,7 @@ namespace 화면설계
             login.MdiParent=this;         
             login.Show();
             login.Focus();
+            
         }
 
         private void 통계ToolStripMenuItem_Click(object sender, EventArgs e)

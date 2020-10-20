@@ -21,5 +21,15 @@ namespace 화면설계
         {
             this.WindowState = FormWindowState.Maximized;
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
