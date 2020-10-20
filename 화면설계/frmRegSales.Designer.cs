@@ -43,6 +43,9 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -192,12 +195,42 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "고객명";
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(393, 398);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(72, 16);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "택배신청";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(230, 399);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 12);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "주소";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(229, 414);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(234, 95);
+            this.textBox2.TabIndex = 8;
+            // 
             // frmRegSales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(640, 527);
+            this.ClientSize = new System.Drawing.Size(649, 527);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button5);
@@ -234,5 +267,8 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
