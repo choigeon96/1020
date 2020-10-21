@@ -1,6 +1,6 @@
 ﻿namespace 화면설계
 {
-    partial class frmNewEmp
+    partial class frmEmpInfo
     {
         /// <summary>
         /// Required designer variable.

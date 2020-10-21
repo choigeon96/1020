@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace 화면설계
 {
-    public partial class frmWorkRecord : Form
+    public partial class frmFindLoginInfo : Form
     {
-        public frmWorkRecord()
+        public frmFindLoginInfo()
         {
             InitializeComponent();
         }
-
-        private void userControl1_Load(object sender, EventArgs e)
-        {
-        }
-
-        private void frmWorkRecord_Load(object sender, EventArgs e)
-        {
-            userControl11.SetDateValue("15");
-        }
     }
-
 }

@@ -13,12 +13,15 @@ namespace 화면설계
 {
     public partial class UserControl1 : UserControl
     {
+        string lbltext = string.Empty;
         public UserControl1()
         {
             InitializeComponent();
-
-            
         }
-        
+        public void SetDateValue(string asd)
+        {
+            lbltext = asd;
+            label1.Text = lbltext;
+        }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace 화면설계
 {
-    public partial class frmNewEmp : Form
+    public partial class frmEmpInfo : Form
     {
-        public frmNewEmp()
+        public frmEmpInfo()
         {
             InitializeComponent();
         }

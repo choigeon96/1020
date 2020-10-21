@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmFindLoginInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFindLoginInfo.Designer.cs">
+      <DependentUpon>frmFindLoginInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,11 +83,11 @@
     <Compile Include="frmMemberSearch.Designer.cs">
       <DependentUpon>frmMemberSearch.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmNewEmp.cs">
+    <Compile Include="frmEmpInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmNewEmp.Designer.cs">
-      <DependentUpon>frmNewEmp.cs</DependentUpon>
+    <Compile Include="frmEmpInfo.Designer.cs">
+      <DependentUpon>frmEmpInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="frmNewEyeTest.cs">
       <SubType>Form</SubType>
@@ -139,6 +145,9 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmFindLoginInfo.resx">
+      <DependentUpon>frmFindLoginInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,8 +163,8 @@
     <EmbeddedResource Include="frmMemberSearch.resx">
       <DependentUpon>frmMemberSearch.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmNewEmp.resx">
-      <DependentUpon>frmNewEmp.cs</DependentUpon>
+    <EmbeddedResource Include="frmEmpInfo.resx">
+      <DependentUpon>frmEmpInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNewEyeTest.resx">
       <DependentUpon>frmNewEyeTest.cs</DependentUpon>
