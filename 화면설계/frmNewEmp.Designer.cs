@@ -37,7 +37,6 @@
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -47,6 +46,10 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,9 +99,10 @@
             // 
             // dateTimePicker2
             // 
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker2.Location = new System.Drawing.Point(473, 117);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 21);
+            this.dateTimePicker2.Size = new System.Drawing.Size(103, 21);
             this.dateTimePicker2.TabIndex = 46;
             // 
             // comboBox3
@@ -121,16 +125,8 @@
             // 
             this.textBox6.Location = new System.Drawing.Point(533, 154);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(112, 21);
+            this.textBox6.Size = new System.Drawing.Size(140, 21);
             this.textBox6.TabIndex = 43;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(473, 222);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(172, 121);
-            this.textBox7.TabIndex = 42;
             // 
             // textBox9
             // 
@@ -209,11 +205,45 @@
             this.label14.TabIndex = 39;
             this.label14.Text = "ID";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(473, 223);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(103, 23);
+            this.button3.TabIndex = 55;
+            this.button3.Text = "주소찾기";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(473, 279);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(200, 21);
+            this.textBox1.TabIndex = 53;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(473, 252);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(200, 21);
+            this.textBox8.TabIndex = 54;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(586, 225);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(87, 21);
+            this.textBox7.TabIndex = 52;
+            // 
             // frmNewEmp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(696, 402);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.button4);
@@ -223,7 +253,6 @@
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.label8);
@@ -252,7 +281,6 @@
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label8;
@@ -262,5 +290,9 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox7;
     }
 }

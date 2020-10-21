@@ -44,14 +44,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(84, 196);
-            this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(213, 65);
+            this.textBox8.Size = new System.Drawing.Size(213, 21);
             this.textBox8.TabIndex = 49;
             // 
             // comboBox2
@@ -60,31 +61,32 @@
             this.comboBox2.Items.AddRange(new object[] {
             "남",
             "여"});
-            this.comboBox2.Location = new System.Drawing.Point(265, 95);
+            this.comboBox2.Location = new System.Drawing.Point(260, 95);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(37, 20);
             this.comboBox2.TabIndex = 50;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(87, 20);
+            this.textBox2.Location = new System.Drawing.Point(84, 20);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 21);
+            this.textBox2.Size = new System.Drawing.Size(83, 21);
             this.textBox2.TabIndex = 35;
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(84, 95);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(175, 21);
+            this.dateTimePicker1.Size = new System.Drawing.Size(103, 21);
             this.dateTimePicker1.TabIndex = 48;
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(194, 21);
+            this.comboBox1.Location = new System.Drawing.Point(219, 21);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(106, 20);
+            this.comboBox1.Size = new System.Drawing.Size(81, 20);
             this.comboBox1.TabIndex = 47;
             // 
             // textBox4
@@ -97,7 +99,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(21, 172);
+            this.label7.Location = new System.Drawing.Point(24, 170);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(29, 12);
             this.label7.TabIndex = 45;
@@ -107,7 +109,7 @@
             // 
             this.textBox5.Location = new System.Drawing.Point(131, 58);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(153, 21);
+            this.textBox5.Size = new System.Drawing.Size(166, 21);
             this.textBox5.TabIndex = 38;
             // 
             // label6
@@ -178,13 +180,31 @@
             this.button2.Text = "취소";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(84, 223);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(213, 21);
+            this.textBox1.TabIndex = 49;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(84, 167);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(103, 23);
+            this.button3.TabIndex = 51;
+            this.button3.Text = "주소찾기";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // frmRegMember
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(323, 329);
             this.Controls.Add(this.button2);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.textBox2);
@@ -223,5 +243,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button3;
     }
 }
