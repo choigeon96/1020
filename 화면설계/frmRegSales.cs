@@ -16,5 +16,10 @@ namespace 화면설계
         {
             InitializeComponent();
         }
+
+        private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

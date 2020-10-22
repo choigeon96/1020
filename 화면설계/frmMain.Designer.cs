@@ -31,14 +31,14 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.매출등록ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.매출현황ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.매장관리ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.통계ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.매뉴얼ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.매출등록ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.매출현황ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +53,7 @@
             this.매뉴얼ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1272, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1238, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -66,6 +66,18 @@
             this.toolStripMenuItem1.Size = new System.Drawing.Size(67, 20);
             this.toolStripMenuItem1.Text = "매출관리";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // 매출등록ToolStripMenuItem
+            // 
+            this.매출등록ToolStripMenuItem.Name = "매출등록ToolStripMenuItem";
+            this.매출등록ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.매출등록ToolStripMenuItem.Text = "매출등록";
+            // 
+            // 매출현황ToolStripMenuItem
+            // 
+            this.매출현황ToolStripMenuItem.Name = "매출현황ToolStripMenuItem";
+            this.매출현황ToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.매출현황ToolStripMenuItem.Text = "매출현황";
             // 
             // toolStripMenuItem2
             // 
@@ -104,28 +116,16 @@
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
             // 
-            // 매출등록ToolStripMenuItem
-            // 
-            this.매출등록ToolStripMenuItem.Name = "매출등록ToolStripMenuItem";
-            this.매출등록ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.매출등록ToolStripMenuItem.Text = "매출등록";
-            // 
-            // 매출현황ToolStripMenuItem
-            // 
-            this.매출현황ToolStripMenuItem.Name = "매출현황ToolStripMenuItem";
-            this.매출현황ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.매출현황ToolStripMenuItem.Text = "매출현황";
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1272, 630);
+            this.ClientSize = new System.Drawing.Size(1238, 554);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMain";
-            this.Text = "Form1";
+            this.Text = "최건";
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

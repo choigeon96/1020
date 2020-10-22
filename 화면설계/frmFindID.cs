@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace 화면설계
 {
-    public partial class frmEmpInfo : Form
+    public partial class frmFindID : Form
     {
-        public frmEmpInfo()
+        public frmFindID()
         {
             InitializeComponent();
         }
 
-        private void textBox9_TextChanged(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

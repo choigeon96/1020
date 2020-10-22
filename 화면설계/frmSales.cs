@@ -31,5 +31,10 @@ namespace 화면설계
         {
 
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

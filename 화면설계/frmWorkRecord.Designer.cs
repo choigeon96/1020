@@ -610,7 +610,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmWorkRecord";
-            this.Text = "WorkRecord";
+            this.Text = "근무관리";
             this.Load += new System.EventHandler(this.frmWorkRecord_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

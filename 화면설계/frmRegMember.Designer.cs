@@ -220,7 +220,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Name = "frmRegMember";
-            this.Text = "frmRegMember";
+            this.Text = "고객 등록";
             this.ResumeLayout(false);
             this.PerformLayout();
 

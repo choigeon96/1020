@@ -47,11 +47,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmFindLoginInfo.cs">
+    <Compile Include="frmFindID.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmFindLoginInfo.Designer.cs">
-      <DependentUpon>frmFindLoginInfo.cs</DependentUpon>
+    <Compile Include="frmFindID.Designer.cs">
+      <DependentUpon>frmFindID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFindPassWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFindPassWord.Designer.cs">
+      <DependentUpon>frmFindPassWord.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -145,8 +151,11 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmFindLoginInfo.resx">
-      <DependentUpon>frmFindLoginInfo.cs</DependentUpon>
+    <EmbeddedResource Include="frmFindID.resx">
+      <DependentUpon>frmFindID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFindPassWord.resx">
+      <DependentUpon>frmFindPassWord.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>

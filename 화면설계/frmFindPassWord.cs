@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace 화면설계
 {
-    public partial class frmFindLoginInfo : Form
+    public partial class frmFindPassWord : Form
     {
-        public frmFindLoginInfo()
+        public frmFindPassWord()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
